@@ -212,8 +212,8 @@ issue.status === "open"
 
 const statusImg =
 issue.status === "open"
-? "/assets/Open-Status.png"
-: "/assets/Closed- Status .png";
+? "assets/Open-Status.png"
+: "assets/Closed- Status .png";
 
 
 const labelsHTML = createLabels(issue.labels);
