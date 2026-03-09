@@ -1,7 +1,7 @@
-// ================= API =================
+ // API
 const allIssuesAPI = "https://phi-lab-server.vercel.app/api/v1/lab/issues";
 
-// ================= Loading Control =================
+//Loading Control 
 const controlLoading = (status) => {
 
 const loader = document.getElementById("loader");
@@ -19,7 +19,7 @@ container.classList.remove("hidden");
 };
 
 
-// ================= Remove Active Tab =================
+// Remove Active Tab 
 const removeActiveBtn = () => {
 
 const tabs = document.querySelectorAll(".tab-btn");
@@ -31,7 +31,7 @@ btn.classList.remove("bg-[#4A00FF]","text-white");
 };
 
 
-// ================= Active Tab =================
+// Active Tab 
 const setActive = (button) => {
 
 removeActiveBtn();
@@ -41,7 +41,7 @@ button.classList.add("bg-[#4A00FF]","text-white");
 };
 
 
-// ================= Load All Issues =================
+// Load All Issues
 const loadIssues = () => {
 
 controlLoading(true);
@@ -57,7 +57,7 @@ displayIssues(data.data);
 };
 
 
-// ================= Filter Status =================
+// Filter Status 
 const filterStatus = (status) => {
 
 controlLoading(true);
@@ -75,7 +75,7 @@ displayIssues(filtered);
 };
 
 
-// ================= Search Issue =================
+// Search Issue 
 const searchIssue = () => {
 
 const text = document
@@ -177,7 +177,7 @@ ${icon} ${label.toUpperCase()}
 
 
 
-// ================= Display Issues =================
+// Display Issues 
 const displayIssues = (issues) => {
 
 const container = document.getElementById("issuesContainer");
@@ -349,7 +349,7 @@ ${issue.description}
 
 <div>
 <p class="text-gray-400">Assignee:</p>
-<p class="font-semibold">${issue.author}</p>
+<p class="font-semibold">${issue.assignee ? issue.assignee : "Not Found"}</p>
 </div>
 
 <div>
@@ -372,7 +372,7 @@ const closeModal = () => {
     };
 
 
-// ================= Initial Load =================
+// Initial Load 
 loadIssues();
 
 
