@@ -1,12 +1,12 @@
-///1️⃣ Difference between var, let, and const
+#1️⃣ Difference between var, let, and const
 
-// var:
+# var:
 
-Function scoped
+- Function scoped
 
-Can be redeclared
+- It Can be redeclared
 
-Can be reassigned
+- It Can be reassigned
 
 Older way of declaring variables
 
