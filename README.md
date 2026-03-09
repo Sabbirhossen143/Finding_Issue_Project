@@ -24,13 +24,11 @@
 ## Spread Operator : 
 The spread operator (...) is used to expand elements of an array or object into individual elements.
 
-### Example (Array)
-
+##### Example (Array)
 const arr1 = [1, 2, 3];
 const arr2 = [...arr1, 4, 5];
 
-### Example (Object)
-
+##### Example (Object)
 const user = { name: "John", age: 25 };
 const newUser = { ...user, city: "Dhaka" };
 
