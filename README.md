@@ -75,6 +75,6 @@ Template literals are strings written using backticks ( ) that allow embedded va
 ##### They also support multi-line strings.
 
 const text = ` 
-Hello
-Welcome to JavaScript
+Hello <br>
+Welcome to JavaScript <br>
 `;
