@@ -1,4 +1,4 @@
-#1️⃣ Difference between var, let, and const
+# 1️⃣ Difference between var, let, and const
 
 # var:
 
