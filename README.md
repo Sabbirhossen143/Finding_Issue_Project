@@ -14,7 +14,7 @@
 
 - Block scoped
 
--It cannot be redeclared
+- It cannot be redeclared
 
 - It can be reassigned
 
