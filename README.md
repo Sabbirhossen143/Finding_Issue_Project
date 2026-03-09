@@ -53,3 +53,14 @@ It is commonly used to copy, merge, or expand arrays and objects.
 ##### numbers.map(n => n * 2);       // [2, 4, 6, 8]
 ##### numbers.filter(n => n > 2);    // [3, 4]
 ##### numbers.forEach(n => console.log(n));
+
+# 4️⃣ What is an Arrow Function
+## Arrow Function : 
+An arrow function is a shorter way to write functions in JavaScript.
+### Normal Function:
+function add(a,b){
+  return a+b;
+}
+
+### Arrow Function:
+const add = (a,b) => a + b;
