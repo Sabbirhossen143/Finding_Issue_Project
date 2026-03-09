@@ -68,10 +68,13 @@ const add = (a,b) => a + b;
 # 5️⃣ What are Template Literals?
 Template literals are strings written using backticks ( ) that allow embedded variables and expressions.
 
-### Example
-#### const name = "John";
-#### const message = `Hello ${name}`;
+#### Example
+ const name = "John"; <br>
+ const message = `Hello ${name}`;
 
-They also support multi-line strings.
+##### They also support multi-line strings.
 
-#### const text = ` Hello, Welcome to JavaScript `;
+const text = ` 
+Hello
+Welcome to JavaScript
+`;
