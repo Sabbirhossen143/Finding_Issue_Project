@@ -1,27 +1,27 @@
 # 1️⃣ Difference between var, let, and const
 
-# var:
+## var:
 
 - Function scoped
 
-- It Can be redeclared
+- It can be redeclared
 
-- It Can be reassigned
+- It can be reassigned
 
-Older way of declaring variables
+- Older way of declaring variables
 
-let
+## let
 
-Block scoped
+- Block scoped
 
-Cannot be redeclared
+-It cannot be redeclared
 
-Can be reassigned
+- It can be reassigned
 
-const
+## const
 
-Block scoped
+- Block scoped
 
-Cannot be redeclared
+- It cannot be redeclared
 
-Cannot be reassigned
+-It cannot be reassigned
