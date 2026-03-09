@@ -65,11 +65,10 @@ function add(a,b){
 ### Arrow Function:
 const add = (a,b) => a + b;
 
-5️⃣ What are Template Literals?
-
+# 5️⃣ What are Template Literals?
 Template literals are strings written using backticks ( ) that allow embedded variables and expressions.
 
-Example
+#### Example
 
 const name = "John";
 const message = `Hello ${name}`;
