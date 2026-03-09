@@ -25,11 +25,11 @@
 The spread operator (...) is used to expand elements of an array or object into individual elements.
 
 ##### Example (Array)
-const arr1 = [1, 2, 3];
+const arr1 = [1, 2, 3]; <br>
 const arr2 = [...arr1, 4, 5];
 
 ##### Example (Object)
-const user = { name: "John", age: 25 };
+const user = { name: "John", age: 25 }; <br>
 const newUser = { ...user, city: "Dhaka" };
 
 It is commonly used to copy, merge, or expand arrays and objects.
