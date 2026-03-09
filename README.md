@@ -70,11 +70,6 @@ Template literals are strings written using backticks ( ) that allow embedded va
 
 #### Example
  const name = "John"; <br>
- const message = `Hello ${name}`;
+ const message = `Hello ${name}`; <br>
+ console.log(msg);
 
-##### They also support multi-line strings.
-
-const text = ` 
-Hello <br>
-Welcome to JavaScript <br>
-`;
