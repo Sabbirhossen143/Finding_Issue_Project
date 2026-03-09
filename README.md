@@ -48,9 +48,8 @@ It is commonly used to copy, merge, or expand arrays and objects.
 - It executes a function for each element
 - It does not return a new array
 
-##### Example
-#### const numbers = [1, 2, 3, 4];
-
-#### numbers.map(n => n * 2);       // [2, 4, 6, 8]
-#### numbers.filter(n => n > 2);    // [3, 4]
-#### numbers.forEach(n => console.log(n));
+#### Example
+##### const numbers = [1, 2, 3, 4];
+##### numbers.map(n => n * 2);       // [2, 4, 6, 8]
+##### numbers.filter(n => n > 2);    // [3, 4]
+##### numbers.forEach(n => console.log(n));
